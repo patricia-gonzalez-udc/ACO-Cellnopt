@@ -1,4 +1,4 @@
-# aco-cellnopt
+# ACO-Cellnopt
 
 ## Purpose
 
