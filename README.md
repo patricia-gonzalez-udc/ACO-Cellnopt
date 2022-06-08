@@ -13,10 +13,15 @@ This repo is hosting the development of the C++-based training of CellNOpt using
 * `CMakeLists.txt` for building C++ code
 * `Makefile` for running tests
 
-## Execute
+## Compile 
 
-To run a toymodel, execute: 
+To compile and run a toymodel, execute: 
 ```
 make aco_toymodel
 ```
+## Parallel execution
 
+`parallel_job.sh` is a script to launch 
+a parallel job with SLURM. Note that
+it should be adapted to the infrastructure
+at hand.
