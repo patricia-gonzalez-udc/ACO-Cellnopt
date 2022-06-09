@@ -22,7 +22,11 @@ make aco_toymodel
 ## Parallel execution
 
 `parallel_job.sh` is a script to launch 
-a parallel job with SLURM. 
+a parallel job with SLURM. Note that it 
+should be adapted to the infrastructure 
+at hand.
 
-Note that it should be adapted to the 
-infrastructure at hand.
+Use:
+```
+sbatch ./parallel_job.sh
+```
